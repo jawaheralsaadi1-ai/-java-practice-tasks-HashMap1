@@ -4,6 +4,7 @@ import java.util.HashMap;
 public class EmployeeGetDemo {
     public static void main(String[] args) {
         HashMap<Integer, String> empIDsWithNamesMap = new HashMap<>();
+        empIDsWithNamesMap.put(101,"Ali");
         empIDsWithNamesMap.put(102, "Maha");
         empIDsWithNamesMap.put(103, "Wala");
         empIDsWithNamesMap.put(104, "Omar");
